@@ -55,10 +55,15 @@ Microsoft Access
 A DBMS provides features such as:
 
 *Data storage and retrieval
+
 *Data security
+
 *Data modification
+
 *User access control
+
 *Backup and recovery
+
 *Data integrity
 
 ## RDBMS
@@ -67,21 +72,20 @@ RDBMS (Relational Database Management System) is a type of DBMS that stores data
 
 In an RDBMS, tables can be related to each other using keys such as Primary Keys and Foreign Keys.
 
-
 Examples of RDBMS:
 
-MySQL
+*MySQL
 
-Oracle
+*Oracle
 
-PostgreSQL
+*PostgreSQL
 
-Microsoft SQL Server
+*Microsoft SQL Server
 
-MariaDB
+*MariaDB
 
 
-RDBMS is a specialized type of DBMS designed around the relational model.
+* RDBMS is a specialized type of DBMS designed around the relational model.
 
 ## SQL
 
@@ -89,27 +93,27 @@ SQL (Structured Query Language) is a standard language used to communicate with 
 
 SQL is used to:
 
-Create databases and tables
+*Create databases and tables
 
-Insert data
+*Insert data
 
-Retrieve data
+*Retrieve data
 
-Update data
+*Update data
 
-Delete data
+*Delete data
 
-Modify table structures
+*Modify table structures
 
-Create relationships
+*Create relationships
 
-Create views
+*Create views
 
-Create procedures and functions
+*Create procedures and functions
 
-Create triggers
+*Create triggers
 
-Control database access
+*Control database access
 
 
 Example:
@@ -126,17 +130,17 @@ MySQL is an open-source Relational Database Management System (RDBMS) that uses 
 MySQL is widely used for:
 
 
-Web applications
+*Web applications
 
-Business applications
+*Business applications
 
-Data management
+*Data management
 
-Backend development
+*Backend development
 
-Reporting systems
+*Reporting systems
 
-Data analysis
+*Data analysis
 
 SQL is the language, while MySQL is the database management system that uses SQL.
 
@@ -150,7 +154,7 @@ Here, SQL is the language being used, and MySQL can execute the query.
 
 Basic Database Concepts
 
-1. Database
+/*1. Database*/
 
 A database is a container that holds related tables and other database objects.
 
@@ -160,7 +164,7 @@ To select a database:
 
 USE Employee;
 
-2. Table
+/*2. Table*/
 
 A table stores data in rows and columns.
 
@@ -170,7 +174,7 @@ CREATE TABLE Employees (
     salary DECIMAL(10,2)
 );
 
-3. Row
+/*3. Row*/
 
 A row represents one complete record in a table.
 
@@ -181,7 +185,7 @@ employee_id	employee_name	salary
 
 This represents one employee record.
 
-4. Column
+/*4. Column*/
 
 A column represents a particular attribute or field.
 
