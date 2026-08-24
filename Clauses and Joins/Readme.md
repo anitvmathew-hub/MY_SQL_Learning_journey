@@ -68,10 +68,14 @@ Used to restrict the number of rows returned by a query. The assignment retrieve
 
 The following aggregate functions are used to perform calculations on employee data:
 
-/* ### SUM()*/ – Calculates the total salary.
+/*SUM()*/ – Calculates the total salary.
+
 AVG() – Calculates the average salary or age.
+
 MIN() – Finds the minimum employee age.
+
 MAX() – Finds the maximum salary.
+
 COUNT() – Counts the number of employees.
 
 ## GROUP BY
