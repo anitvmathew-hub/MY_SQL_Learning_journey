@@ -68,15 +68,15 @@ Used to restrict the number of rows returned by a query. The assignment retrieve
 
 The following aggregate functions are used to perform calculations on employee data:
 
-/*SUM()*/ – Calculates the total salary.
+**SUM()** – Calculates the total salary.
 
-AVG() – Calculates the average salary or age.
+**AVG()** – Calculates the average salary or age.
 
-MIN() – Finds the minimum employee age.
+**MIN()** – Finds the minimum employee age.
 
-MAX() – Finds the maximum salary.
+**MAX()** – Finds the maximum salary.
 
-COUNT() – Counts the number of employees.
+**COUNT()** – Counts the number of employees.
 
 ## GROUP BY
 
@@ -89,15 +89,15 @@ Used to filter grouped results based on aggregate conditions. Queries identify d
 
 ## SQL Joins
 
-INNER JOIN
+**INNER JOIN**
 
 Used to retrieve only matching records from the Employees and Departments tables. It displays employee names, designations, and their corresponding department names.
 
-LEFT JOIN
+**LEFT JOIN**
 
 Used to display all departments along with the total number of employees in each department. Departments without employees are also included in the result.
 
-RIGHT JOIN
+**RIGHT JOIN**
 
 Used to display all locations along with the employees assigned to them. If a location does not have an assigned employee, the employee name is displayed as NULL.
 
