@@ -130,17 +130,14 @@ MySQL is an open-source Relational Database Management System (RDBMS) that uses 
 MySQL is widely used for:
 
 
-*Web applications
+* Web applications
+* Business applications
+* Data management
+* Backend development
+* Reporting systems
+* Data analysis
 
-*Business applications
 
-*Data management
-
-*Backend development
-
-*Reporting systems
-
-*Data analysis
 
 SQL is the language, while MySQL is the database management system that uses SQL.
 
