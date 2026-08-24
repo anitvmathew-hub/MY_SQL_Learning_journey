@@ -29,7 +29,7 @@ Date of Joining
 
 
 
-Databases make it easier to manage large amounts of structured information.
+* Databases make it easier to manage large amounts of structured information.
 
 ## DBMS
 
@@ -54,18 +54,12 @@ Microsoft Access
 
 A DBMS provides features such as:
 
-
-Data storage and retrieval
-
-Data security
-
-Data modification
-
-User access control
-
-Backup and recovery
-
-Data integrity
+*Data storage and retrieval
+*Data security
+*Data modification
+*User access control
+*Backup and recovery
+*Data integrity
 
 ## RDBMS
 
@@ -199,96 +193,3 @@ salary
 
 Each column has a specific data type.
 
-SQL Data Types
-
-Data types define what kind of data can be stored in a column.
-
-Common MySQL Data Types
-Data Type	Purpose
-INT	Whole numbers
-DECIMAL	Exact numeric values
-VARCHAR	Variable-length text
-CHAR	Fixed-length text
-DATE	Date values
-DATETIME	Date and time
-BOOLEAN	True/False values
-ENUM	One value from a predefined list
-
-Example:
-
-gender ENUM('M', 'F')
-
-This allows the column to contain only the predefined values.
-
-SQL Commands
-
-SQL commands can be grouped into different categories.
-
-1. DDL – Data Definition Language
-
-DDL is used to define and modify the structure of database objects.
-
-Common DDL commands:
-
-CREATE
-ALTER
-DROP
-TRUNCATE
-
-Example:
-
-CREATE TABLE Employees (
-    employee_id INT PRIMARY KEY,
-    employee_name VARCHAR(100)
-);
-2. DML – Data Manipulation Language
-
-DML is used to add, modify, and remove data from tables.
-
-Common DML commands:
-
-INSERT
-UPDATE
-DELETE
-
-Example:
-
-INSERT INTO Employees
-(employee_id, employee_name)
-VALUES
-(101, 'John Smith');
-3. DQL – Data Query Language
-
-DQL is used to retrieve data from a database.
-
-The primary command is:
-
-SELECT
-
-Example:
-
-SELECT employee_name, salary
-FROM Employees;
-4. DCL – Data Control Language
-
-DCL is used to control access and permissions in a database.
-
-Common commands:
-
-GRANT
-REVOKE
-5. TCL – Transaction Control Language
-
-TCL is used to manage database transactions.
-
-Common commands:
-
-COMMIT
-ROLLBACK
-SAVEPOINT
-
-Example:
-
-COMMIT;
-
-This permanently saves the changes made during the transaction.
