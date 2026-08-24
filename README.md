@@ -1,1 +1,1 @@
-# MY_SQL_-Learning-_journey
+# MY_SQL_Learning_journey
