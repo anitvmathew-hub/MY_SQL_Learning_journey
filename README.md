@@ -9,7 +9,7 @@ When a large amount of data needs to be stored, organized, accessed, and managed
 
 ## Database
 
-A database is an organized collection of data that allows information to be stored, retrieved, updated, and managed efficiently.
+A database is an organized collection of data that allows information to be stored, retrieved, updated, and managed efficiently. Databases make it easier to manage large amounts of structured information.
 
 For example, an employee database may contain information such as:
 
@@ -27,9 +27,6 @@ Salary
 
 Date of Joining
 
-
-
-* Databases make it easier to manage large amounts of structured information.
 
 ## DBMS
 
