@@ -1,102 +1,122 @@
 # MY_SQL_Learning_Journey
 
-Introduction to SQL and MySQL
-What is Data?
+
+## Data
 
 Data is a collection of facts, values, or information that can be stored and processed. Examples include employee names, salaries, customer details, product information, and transaction records.
 
 When a large amount of data needs to be stored, organized, accessed, and managed efficiently, we use a database.
 
-What is a Database?
+## Database
 
 A database is an organized collection of data that allows information to be stored, retrieved, updated, and managed efficiently.
 
 For example, an employee database may contain information such as:
 
 Employee ID
+
 Employee Name
+
 Gender
+
 Department
+
 Job Designation
+
 Salary
+
 Date of Joining
+
+
 
 Databases make it easier to manage large amounts of structured information.
 
-What is DBMS?
+## DBMS
 
 DBMS (Database Management System) is software used to create, store, organize, retrieve, update, and manage data in databases.
 
 A DBMS acts as an interface between users/applications and the database.
 
 Examples of DBMS:
+
 MySQL
+
 Oracle Database
+
 Microsoft SQL Server
+
 PostgreSQL
+
 SQLite
+
 Microsoft Access
+
 
 A DBMS provides features such as:
 
+
 Data storage and retrieval
+
 Data security
+
 Data modification
+
 User access control
+
 Backup and recovery
+
 Data integrity
-What is RDBMS?
+
+## RDBMS
 
 RDBMS (Relational Database Management System) is a type of DBMS that stores data in the form of tables consisting of rows and columns.
 
 In an RDBMS, tables can be related to each other using keys such as Primary Keys and Foreign Keys.
 
-For example:
-
-Employees Table
-employee_id	employee_name	department_id
-101	John Smith	1
-102	Anita Thomas	2
-Departments Table
-department_id	department_name
-1	Software Development
-2	Marketing
-
-Here, department_id connects the Employees table with the Departments table.
 
 Examples of RDBMS:
+
 MySQL
+
 Oracle
+
 PostgreSQL
+
 Microsoft SQL Server
+
 MariaDB
-DBMS vs RDBMS
-DBMS	RDBMS
-Database Management System	Relational Database Management System
-May or may not use tables	Primarily uses tables
-Relationships between data may not be enforced	Relationships between tables are supported
-May have less strict data integrity	Provides strong data integrity
-Example: some file-based database systems	MySQL, Oracle, PostgreSQL
+
 
 RDBMS is a specialized type of DBMS designed around the relational model.
 
-What is SQL?
+## SQL
 
 SQL (Structured Query Language) is a standard language used to communicate with relational databases.
 
 SQL is used to:
 
 Create databases and tables
+
 Insert data
+
 Retrieve data
+
 Update data
+
 Delete data
+
 Modify table structures
+
 Create relationships
+
 Create views
+
 Create procedures and functions
+
 Create triggers
+
 Control database access
+
 
 Example:
 
@@ -105,17 +125,23 @@ FROM Employees;
 
 This query retrieves all records from the Employees table.
 
-What is MySQL?
+## MySQL
 
 MySQL is an open-source Relational Database Management System (RDBMS) that uses SQL to store, manage, and retrieve data.
 
 MySQL is widely used for:
 
+
 Web applications
+
 Business applications
+
 Data management
+
 Backend development
+
 Reporting systems
+
 Data analysis
 
 SQL is the language, while MySQL is the database management system that uses SQL.
@@ -129,6 +155,7 @@ WHERE salary > 50000;
 Here, SQL is the language being used, and MySQL can execute the query.
 
 Basic Database Concepts
+
 1. Database
 
 A database is a container that holds related tables and other database objects.
@@ -138,6 +165,7 @@ CREATE DATABASE Employee;
 To select a database:
 
 USE Employee;
+
 2. Table
 
 A table stores data in rows and columns.
@@ -147,6 +175,7 @@ CREATE TABLE Employees (
     employee_name VARCHAR(100),
     salary DECIMAL(10,2)
 );
+
 3. Row
 
 A row represents one complete record in a table.
