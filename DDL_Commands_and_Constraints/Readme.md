@@ -139,9 +139,10 @@ Automatically generates sequential values for the location_id column when a new 
 Restricts the gender column to predefined values:
 
 M
-F
-CHECK
 
+F
+
+## CHECK
 Ensures that the employee's age meets the specified condition:
 
 CHECK (age >= 18)
@@ -156,7 +157,7 @@ DEFAULT (CURRENT_DATE)
 
 Sample records were inserted into all three tables to test the table relationships, constraints, and DDL operations. The dataset includes employee details along with their corresponding departments and locations.
 
-
+## Conclusion
 
 This assignment helped strengthen my understanding of MySQL DDL commands, relational database structure, and database constraints, which are fundamental concepts for database management and data analysis.
 
