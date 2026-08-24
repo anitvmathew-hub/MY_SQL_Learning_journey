@@ -8,7 +8,9 @@ This assignment focuses on practicing MySQL Data Definition Language (DDL) comma
 The assignment uses an Employee database consisting of three related tables:
 
 Employees
+
 Departments
+
 Location
 
 The tables are connected using primary key and foreign key relationships.
@@ -22,6 +24,7 @@ Stores information about different departments in the organization.
 #### Columns:
 
 Department ID
+
 Department Name
 
 ### Location Table
@@ -31,6 +34,7 @@ Stores information about employee locations.
 #### Columns:
 
 Location ID
+
 Location Name
 
 ### Employees Table
@@ -40,13 +44,21 @@ Stores employee-related information.
 ### Columns:
 
 Employee ID
+
 Employee Name
+
 Gender
+
 Age
+
 Hire Date
+
 Designation
+
 Department ID
+
 Location ID
+
 Salary
 
 The department_id and location_id columns in the Employees table are connected to the Departments and Location tables using foreign key relationships.
@@ -67,6 +79,7 @@ Added an email column to the Employees table.
 Modified the size of the designation column.
 
 Dropped the age column.
+
 Renamed the hire_date column to date_of_joining.
 
 ### RENAME
